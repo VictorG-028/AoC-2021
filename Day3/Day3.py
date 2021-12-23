@@ -1,9 +1,10 @@
 from functools import reduce 
 
+################################
 
 def part_1():
 
-  with open("Day3-input.txt", "r") as file:
+  with open("Day3\\Day3-input.txt", "r") as file:
     lines = file.readlines()
     lines = list(map(lambda l: l.rstrip("\n"), lines))
 
@@ -95,6 +96,7 @@ def part_2():
 
   print(f"Answer 2: {results} | o2_generation: {o2_generation} | co2_scrubber: {co2_scrubber}")
 
+################################
 
 if __name__ == "__main__":
   part_1()

@@ -1,5 +1,7 @@
 from typing import List
 
+################################
+
 def part_1():
   
   with open("input.txt", "r") as file:
@@ -32,7 +34,7 @@ def part_2():
     return windows
     
 
-  with open("Day1-input.txt", "r") as file:
+  with open("Day1\\Day1-input.txt", "r") as file:
     windows = array_to_3windows(list(map(int, file.readlines())))
 
   fst_window = windows.pop(0)
@@ -48,6 +50,7 @@ def part_2():
 
   print(larger_than_previous_measurement)
 
+################################
 
 if __name__ == "__main__":
   part_1()

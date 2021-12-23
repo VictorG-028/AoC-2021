@@ -2,7 +2,7 @@
 
 def part_1():
 
-  with open("Day2-input.txt", "r") as file:
+  with open("Day2\\Day2-input.txt", "r") as file:
     lines = map(lambda s: s.split(), file.readlines())
     lines = list(map(lambda s: (s[0], int(s[1])), lines))
 
@@ -50,6 +50,7 @@ def part_2():
   print(abscissa)
   print(abscissa*depth)
 
+################################
 
 if __name__ == "__main__":
   part_1()
