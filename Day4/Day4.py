@@ -117,7 +117,6 @@ def part_1():
 
   print(f"Answer 1: {int(last_marked) * points}")
     
-
 ################################
 
 def part_2():
@@ -160,6 +159,7 @@ def part_2():
 
   print(f"Answer 2: {int(last_marked) * points}")
 
+################################
 
 if __name__ == "__main__":
   part_1()
